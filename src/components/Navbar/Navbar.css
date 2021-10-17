@@ -1,0 +1,17 @@
+.menu .navbar-brand{
+    color: tomato;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+.menu .navbar-brand:hover{
+    color: springgreen;
+}
+.menu .navbar-nav .nav-item .nav-link {
+    color:#000;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+    color: tomato;
+}

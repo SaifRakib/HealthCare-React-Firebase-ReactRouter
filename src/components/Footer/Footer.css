@@ -1,0 +1,42 @@
+#footer{
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.footer_wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.contact_info h4{
+    color: tomato;
+}
+.contact_info p{
+    color: #fff;;
+}
+.contact_info i{
+    margin-right: 10px;
+}
+
+.services h4{
+    color: tomato;
+}
+.text-link{
+    color: #fff;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+.services ul li{
+    list-style-type:square;
+    color: #fff;
+    margin-top: 5px;
+}
+.text-link:hover{
+    color: tomato;
+
+}
+.copyright{
+    color: #fff;
+    transition: all linear .3s;
+}
+.copyright:hover{
+    color: tomato;
+}

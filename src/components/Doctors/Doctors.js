@@ -15,8 +15,8 @@ const Doctors = () => {
         })
     },[])
     return (
-        <div className="container">
-            <h2 className="text-center my-5">Our Doctors</h2>
+        <div className="container my-5">
+            <h2 className="text-center my-5 title_heading">Our Doctors</h2>
             <div className="card-group">
                 {
                     doctors.map(doctor => <Doctor doctor={doctor} key={doctor.id}></Doctor>)
