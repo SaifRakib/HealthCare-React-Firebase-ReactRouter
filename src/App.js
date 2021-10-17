@@ -6,7 +6,7 @@ import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div>
+   <>
     <Router>
         <Switch>
             <Route exact path="/">
@@ -15,9 +15,11 @@ function App() {
             <Route path="/home">
                 <Home></Home>
             </Route>
+           
         </Switch>
     </Router>
-   </div>
+   </>
+  
   );
 }
 

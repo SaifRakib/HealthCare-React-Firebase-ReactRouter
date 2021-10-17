@@ -1,0 +1,21 @@
+.card-group{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.more_doctors{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all linear .4s;
+    
+}
+.more_doctors:hover{
+    color: #fff;
+    background-color: springgreen;
+}
