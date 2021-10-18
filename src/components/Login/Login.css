@@ -1,0 +1,37 @@
+.login_form input[type=email], input[type=password]{
+   background-color: #dddddd;
+   border: 1px solid #f1f1f1;
+   padding: 10px 20px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+.login_form button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: #fff;
+    font-weight: 700;
+
+}
+.google_sign{
+   margin-top: 30px; 
+}
+.google_sign button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: goldenrod;
+    color: #fff;
+    font-weight: 700;
+}
+.google_sign button i{
+    color: blue;
+    margin-right: 10px;
+}
+.login_toggle{
+    text-decoration: none;
+    font-weight: 500;
+}
