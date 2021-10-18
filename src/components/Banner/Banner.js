@@ -1,5 +1,7 @@
 import React from 'react';
-import bannerImage1 from '../../image/imge1.jpg';
+import bannerImage1 from '../../image/image1.jpg';
+import bannerImage2 from '../../image/image2.png';
+import bannerImage3 from '../../image/image3.png';
 
 const Banner = () => {
     return (
@@ -15,10 +17,10 @@ const Banner = () => {
                 <img className="d-block w-100" src={bannerImage1} alt="First slide"/>
                 </div>
                 <div className="carousel-item">
-                <img className="d-block w-100" src={bannerImage1} alt="Second slide"/>
+                <img className="d-block w-100" src={bannerImage2} alt="Second slide"/>
                 </div>
                 <div className="carousel-item">
-                <img className="d-block w-100" src={bannerImage1} alt="Third slide"/>
+                <img className="d-block w-100" src={bannerImage3} alt="Third slide"/>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

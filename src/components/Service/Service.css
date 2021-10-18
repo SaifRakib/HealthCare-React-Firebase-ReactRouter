@@ -2,3 +2,16 @@
     width: 356px;
     height: 250px;
 }
+.service_link{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: all linear .4s;
+}
+.service_link:hover{
+    color: #fff;
+    background-color: seagreen;
+}
