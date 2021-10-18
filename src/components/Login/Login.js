@@ -19,7 +19,7 @@ const Login = () => {
                     <button type="submit">Login</button>
                 </div>
                 <hr />
-                <p className="text-center login_toggle">New to Hospital plus? <Link to="/signup">Sign Up</Link></p>
+                <p className="text-center login_toggle">New to Hospital plus? <Link to="/register">Sign Up</Link></p>
 
                 <div className="google_sign text-center">
                     <button type="submit" onClick={signInUsingGoogle}><i className="fab fa-google"></i>Sign with Google</button>

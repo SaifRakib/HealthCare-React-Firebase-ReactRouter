@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import MoreDoctors from './components/MoreDoctors/MoreDoctors';
 import Navbar from './components/Navbar/Navbar';
+import NotFound from './components/Newsletter/NotFound';
+import Register from './components/Registration/Register';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import AuthProvider from './Context/AuthProvider';
 
@@ -31,6 +33,12 @@ function App() {
                     </Route>
                     <Route path="/login">
                         <Login></Login>
+                    </Route>
+                    <Route path="/register">
+                        <Register></Register>
+                    </Route>
+                    <Route path="*">
+                        <NotFound></NotFound>
                     </Route>
                 </Switch>
             </Router>
