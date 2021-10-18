@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Doctor from '../Doctor/Doctor';
 import './Doctors.css';
 
@@ -25,7 +26,7 @@ const Doctors = () => {
             </div>
 
             <div className="text-center my-4">
-                <a href="/home" className="more_doctors">See More Doctors</a>
+                <Link to="/doctors" className="more_doctors">See More Doctors</Link>
             </div>
         </div>
     );
