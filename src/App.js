@@ -6,6 +6,7 @@ import Login from './components/Login/Login';
 import MoreDoctors from './components/MoreDoctors/MoreDoctors';
 import Navbar from './components/Navbar/Navbar';
 import NotFound from './components/Newsletter/NotFound';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Register from './components/Registration/Register';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import AuthProvider from './Context/AuthProvider';
@@ -28,9 +29,9 @@ function App() {
                     <Route exact path="/services/:id">
                         <ServiceDetails></ServiceDetails>
                     </Route>
-                    <Route path="/doctors">
+                    <PrivateRoute path="/doctors">
                         <MoreDoctors></MoreDoctors>
-                    </Route>
+                    </PrivateRoute>
                     <Route path="/login">
                         <Login></Login>
                     </Route>

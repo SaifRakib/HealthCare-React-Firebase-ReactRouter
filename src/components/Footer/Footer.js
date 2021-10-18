@@ -18,19 +18,19 @@ const Footer = () => {
                 <h4 className="my-4">Services</h4>
                 <ul>
                     <li>
-                        <Link className="text-link">Outpatient Surgery</Link>
+                        <Link to="/" className="text-link">Outpatient Surgery</Link>
                     </li>
                     <li>
-                        <Link className="text-link">Cardiac Clinic</Link>
+                        <Link to="/" className="text-link">Cardiac Clinic</Link>
                     </li>
                     <li>
-                        <Link className="text-link">Ophthalmology Clinic</Link>
+                        <Link to="/" className="text-link">Ophthalmology Clinic</Link>
                     </li>
                     <li>
-                        <Link className="text-link">Gynaecological Clinic</Link>
+                        <Link to="/" className="text-link">Gynaecological Clinic</Link>
                     </li>
                     <li>
-                        <Link className="text-link">Outpatient Rehabilitation</Link>
+                        <Link to="/" className="text-link">Outpatient Rehabilitation</Link>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged ,signOut,createUserWithEmailAndPassword ,signInWithEmailAndPassword} from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged ,signOut,createUserWithEmailAndPassword ,signInWithEmailAndPassword,updateProfile} from "firebase/auth";
 import initializeAuthentication from "../Firebase/Firebase.init";
 
 initializeAuthentication();
@@ -50,6 +50,7 @@ const useFirebase = () =>{
         .then((result) => {
         // Signed in 
         setUser(user);
+        setUserName();
         setError('');
       })
       .catch((error) => {
@@ -58,13 +59,26 @@ const useFirebase = () =>{
    
     }
 
+    // User name set up
+    const setUserName = () =>{
+      updateProfile(auth.currentUser, {
+        displayName: name
+      }).then(() => {
+        // Profile updated!
+       
+      }).catch((error) => {
+        // An error occurred
+        setError(error.message)
+      });
+    }
+
+  //  handle login user
     const handleLogInUser = (e) => {
       e.preventDefault();
       signInWithEmailAndPassword(auth, email, password)
         .then((result) => {
           // Signed in 
           setUser(result.user);
-          console.log(result.user);
           setError('');
         
         })
