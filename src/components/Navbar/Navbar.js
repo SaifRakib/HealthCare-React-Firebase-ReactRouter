@@ -27,9 +27,6 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link className="nav-link" to="/doctors">Doctors</Link>
                     </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/contact">Contact Us</Link>
-                    </li>
                    { user.email && <li className="nav-item">
                         <p className="username">{user.displayName}</p>
                     </li>}
