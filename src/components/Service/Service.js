@@ -11,7 +11,7 @@ const Service = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{service_title}</h5>
                     <p className="card-text">{short_desc}</p>
-                    <div><Link className="service_link" to={`services/${id}`}>Read More</Link></div>
+                    <div><Link className="service_link" to={`servicedetails/${id}`}>Read More</Link></div>
                 </div>
             </div>
         </div>
