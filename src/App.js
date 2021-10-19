@@ -2,11 +2,13 @@
 import { BrowserRouter as Router ,Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import MoreDoctors from './components/MoreDoctors/MoreDoctors';
+import MoreServices from './components/MoreServices/MoreServices';
 import Navbar from './components/Navbar/Navbar';
-import NotFound from './components/Newsletter/NotFound';
+import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Register from './components/Registration/Register';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
@@ -27,6 +29,9 @@ function App() {
                     <Route path="/home">
                         <Home></Home>
                     </Route>
+                    <Route path="/services">
+                        <MoreServices></MoreServices>
+                    </Route>
                     <Route exact path="/servicedetails/:id">
                         <ServiceDetails></ServiceDetails>
                     </Route>
@@ -46,6 +51,7 @@ function App() {
                         <NotFound></NotFound>
                     </Route>
                 </Switch>
+                <Footer></Footer>
             </Router>
    </AuthProvider>
    </>

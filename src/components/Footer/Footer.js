@@ -9,10 +9,10 @@ const Footer = () => {
             <div className="footer_wrap">
             <div className="contact_info">
                 <h4 className="my-4">Contact Information</h4>
-                <p><i class="fas fa-map-marker-alt"></i>Dhanmondi,Dhaka,Bangladesh</p>
-                <p><i class="fas fa-globe"></i>www.hospitalplus.com</p>
-                <p><i class="fas fa-envelope"></i>hospital-plus@gmail.com</p>
-                <p><i class="fas fa-phone-alt"></i>1-888-333-444-222</p>
+                <p><i className="fas fa-map-marker-alt"></i>Dhanmondi,Dhaka,Bangladesh</p>
+                <p><i className="fas fa-globe"></i>www.hospitalplus.com</p>
+                <p><i className="fas fa-envelope"></i>hospital-plus@gmail.com</p>
+                <p><i className="fas fa-phone-alt"></i>1-888-333-444-222</p>
             </div>
             <div className="services">
                 <h4 className="my-4">Services</h4>

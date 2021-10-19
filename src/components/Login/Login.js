@@ -6,7 +6,7 @@ import './Login.css'
 const Login = () => {
     const {signInUsingGoogle,handleLogInUser,error} = useAuth();
     return (
-        <div className="container">
+        <div className="container my-5">
             <h2 className="text-center">Login</h2>
              <form onSubmit={handleLogInUser}>
              <div className="login_form text-center">

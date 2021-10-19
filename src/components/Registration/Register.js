@@ -6,7 +6,7 @@ import './Register.css'
 const Register = () => {
     const {signInUsingGoogle,handleRegister,handleEmailChange,handlePasswordChange,handleChangeName,error} = useAuth();
     return (
-        <div className="container w-50 mt-5">
+        <div className="container w-50 my-5">
             <h2 className="text-center">Register</h2>
           
            <form onSubmit={handleRegister} className="register-form">
